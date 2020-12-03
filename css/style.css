@@ -1,0 +1,213 @@
+body{
+    
+background: #F4F4F4; 
+margin: 0;
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: #FFFF;
+    box-shadow: 0px 0px 10px 1px #aaaa;
+    
+}
+
+.header{
+    
+    background: #deceed;
+    padding: 45px 0 20px 40px;
+    border: 2px solid #FFFF;   
+}
+
+.link-title {
+    
+    color: #755b87;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: "Montserrat", "Arial";
+    font-weight: bold; 
+}
+
+.menu{
+    
+    background: #906fa6;
+    padding: 6px 0 6px 40px;  
+}
+
+.menu a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat", "Arial";  
+}
+
+.menu a:hover{
+    
+    color:black;
+}
+
+
+aside {
+    
+float: left;
+width: 120px;
+padding: 30px 0 0 40px;
+    
+}
+
+h1 {
+    
+    margin: 0px;
+    color: #906fa6;
+    font-size: 22px;
+    font-family: "Montserrat", "Arial";
+    font-weight: normal;
+
+}
+
+h2 {
+    
+    margin: 20px 0 5px 0;
+    color: #906fa6;
+    font-size: 16px;
+    font-family: "Montserrat", "Arial";
+    font-weight: normal;
+
+}
+
+.page-heading  {
+    
+    margin-bottom: 20px;
+    text-align: center;
+    color: #906fa6;
+    font-size: 24px;
+    font-family: "Montserrat", "Arial";
+    font-weight: bold;   
+    
+}
+
+.main {
+    
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Roboto", "Calibri";
+    font-size: 12px;
+    line-height: 18px;
+    text-emphasis: justify;
+/*    Justify makes it the same on both sides*/
+    
+}
+
+.main a {
+    
+    color: #9964bd;
+    text-decoration: underline;
+}
+
+
+.main a:hover {
+    
+    color: #444444;
+    
+}
+
+footer {
+    
+    padding: 6px 40px 6px 40px;
+    background: #dedede;
+    font-family: "Roboto", "Calibri";
+    color: #444444;
+    font-size: 10px;
+    text-transform: right;
+    
+}
+
+footer a {
+    
+    text-decoration: none;
+    color: #262626;
+    
+}
+
+.separator {
+    
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+/******** Homepage Style ******/
+
+
+#home-image img{
+    
+    width: 100%;
+}
+
+
+/******** About Page Style ******/
+
+#about-page #home-image img{
+    
+    width: 70%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#about-page #profile-info {
+    
+    float: right;
+    width: 20%;
+    margin-left: 5px;
+    
+}
+
+#about-page .description {
+    
+clear:both;
+    
+}
+
+/******** Contact Page Style ******/
+
+#contact-form {
+width: 500px;
+padding: 10px 10px 10px 10px;
+margin: auto;
+box-shadow: 0px 0px 10px 1px #aaaa;
+border:1px;
+border-radius: 5px;
+}
+
+label {
+
+font-weight: bold;  
+}
+
+#contact-form input {
+    
+    width: 100%;
+    height: 20px;
+    border-radius: 1px;
+    background: #ebebeb;
+    font-family: "Roboto", "Calibri"; 
+}
+
+#form-message {
+    
+    width: 100%;
+    border-radius: 1px;
+    background: #ebebeb;
+    font-size: 12px;
+    font-family: "Roboto", "Calibri";   
+}
+
+#contact-form #submit {
+    
+    border: none;
+    height: 30px;
+    background: #906fa6;
+    color: #FFFF
+}
